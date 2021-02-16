@@ -3,5 +3,21 @@ body{
 }
 .card{
   color: black;
-  background-color:goldenrod
+  background-color:goldenrod;
+  
+}
+.navbar-Menu::before{
+
+a navbar-Menu :hover{
+  background-color:increment;
+  max-width: 1200px;
+
+}
+.container{
+  max-width: 1200px;
+  margin: auto;
+  overflow: auto;
+}
+.navbar-toggler{
+  float: right;
 }
