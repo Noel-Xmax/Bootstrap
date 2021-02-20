@@ -12,29 +12,52 @@
     <h1>Call & Dine</h1>
 
     <h2>Catering4U</h2><br>
+    <div class =" row ">
+      <div class= "colomn">
     <div class="card">
       <div class="card-body">
         <h2>What we offer:</h2>
           <ul>
-            <li>Inhouse Catering</li>
-            <li>Outside Catering</li>
-            <li>Decoring </li>
-            <li>Event Organizing</li>
-            <li>Cold call Orders</li>
+            <div class= "col-sm-8">Inhouse Catering</div>
+            <div class= "col-sm-8">Outside Catering</div>
+            <div class= "col-sm-8">Decoring </div>
+            <div class= "col-sm-8">Event Organizing</div>
+            <div class= "col-sm-8">Cold call Orders</div>
           </ul>
         </div>
       </div>
     </div>
+  </div>
+</div>
       </ul>
     <div class="card">
       <div class= "card-title">
         <h2> Awarded events  for Organizing include:</h2>
           <div class= "card-body">
             <ol>
-              <li>Birthday Parties</li>
-              <li>Engagement Parties</li>
-              <li>Bachelor and bachelorattes Parties</li>
-              <li>Baby showeres</li>
+              <button onclick="gridView()"><i class="fa fa-bars"></i></button>
+                <div class="row">
+                  <div class="colomn" style="background-color:#aaa;">
+                    <h2>Birthday Parties</h2>
+                   </div>
+                </div>
+              <button onclick="listView()"><i class="fa fa-bars"></i></button>
+              <div class="row">
+                <div class="colomn" style="background-color:#aaa;">
+                  <h2>  Parties</h2>
+                 </div>
+              </div>
+              <button onclick="gridView()"><i class="fa fa-bars"></i></button>
+              <div class="row">
+                <div class="colomn" style="background-color:#aaa;">
+                  <h2>Graduation Ceremonies</h2>
+                </div>
+              </div>
+              <button onclick="listView()"<i class="fa fa-bars"></i></button>
+              <div class="row">
+                <div class="colomn" style="background-color:#aaa;">
+                  <h2>Baby Showers</h2>
+              </div>
             </ol>
           </div>
         <div>
@@ -46,17 +69,17 @@
     <div class="collapse navbar-collapse">
       <div class="card">
     
-      <a href="#" class="navbar-Menu">Menus</a>
+    <a href="#" class="navbar-Menu">Menus</a>
       <button class="navbar-toggler">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-        <ul class="navbar-Menu">
+       <span class="navbar-toggler-icon"></span>
+        </button>
+         <ul class="navbar-Menu">
           <li class="navbar-item"> 
             <a href="#" class="nav-link">Starters</a>
-            <img src="Assets/Images/Al. Carte-1.jpg" width="100" height="100">
+             <img src="Assets/Images/Al. Carte-1.jpg" width="100" height="100">
                 <div class ="desc">
                   <div class="row">
-                    <div class="Price-sm-8">Ksh. 600.00 </div>
+                    <div class="Price-lg-8">Ksh. 600.00 </div>
                   </div>
                 </div>
           </li>
@@ -65,7 +88,7 @@
             <img src="Assets/Images/Buffet.jpg" width="100" height="100">
             <div class ="desc">
               <div class="row">
-                <div class="col-sm-8">Ksh.3, 600.00 for a full course meal per person</div>
+                <div class="col-lg-8">Ksh.3, 600.00 for a full course meal per person</div>
               </div>
             </div>
           </li>
@@ -83,7 +106,7 @@
             <img src="Assets/Images/Drinks.jpg" width="100" height="100">
             <div class ="desc">
               <div class="row">
-                <div class="col-sm-8">Drinks list are:
+                <div class="col-lg-8">Drinks list are:
                   <ul>
                     <li>Cocktails-Ksh. 600</li>
                     <li>Mocktains-Ksh. 500</li>
